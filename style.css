@@ -1,18 +1,49 @@
-body{
-  background-color: #123456;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 10% 20%; 
+body {
+  background-color: #00f;
+  font-size: 30px;
+  color: #000;
+  font-family: Lucida Console;
+  margin: 10% 20%;
+  text-align: center;
+  padding: 24px
+  
+  margin-left: auto;
+  background-image: linear-gradient(to right, blue,red)
+  
+    
+}
+.exp-header {
+  text-transform: uppercase;
+  border-top: 10px solid #000;
+  border-bottom: 10px solid #000;
+  background-color: #808080;
 }
 
-.exp-header{
-  text-align: center;
-  text-transform: uppercase;
-  border-top: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
-  background-color: rgba(0,0,0,0.1)
+h4{
+  text-shadow: 2px, 2px;
+  text-shadow: 2px 2px white;
+}
+
+li{
+  text-shadow: 2px, 2px;
+  text-shadow: 2px 2px black;
+}
+
+h5{
+  text-shadow: 2px, 2px;
+  text-shadow: 2px 2px white;
+}
+
+h6{
+  text-shadow: 2px, 2px;
+  text-shadow: 2px 2px black;
+  font-family: Lucida Console
+  font-size: 30px  
 }
 
 img{
-  width: 255px
-}
+  border-radius: 50%;
+  -webkit-box-reflect: right;
+  margin: 5%
+  }
+
